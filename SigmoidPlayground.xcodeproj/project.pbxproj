@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C026D48244B3D8400317E09 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 4C026D47244B3D8400317E09 /* LICENSE */; };
+		4C026D4F244B473F00317E09 /* VShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C026D4E244B473F00317E09 /* VShape.swift */; };
+		4C026D51244B478B00317E09 /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C026D50244B478B00317E09 /* Grid.swift */; };
+		4C026D53244B47BD00317E09 /* Sigmoid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C026D52244B47BD00317E09 /* Sigmoid.swift */; };
+		4C026D56244B482B00317E09 /* Labels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C026D55244B482B00317E09 /* Labels.swift */; };
+		4C026D58244B486A00317E09 /* SigmoidView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C026D57244B486A00317E09 /* SigmoidView.swift */; };
 		4CDBC5A6244A2C92002F1A8D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDBC5A5244A2C92002F1A8D /* AppDelegate.swift */; };
 		4CDBC5A8244A2C92002F1A8D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDBC5A7244A2C92002F1A8D /* SceneDelegate.swift */; };
 		4CDBC5AA244A2C92002F1A8D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDBC5A9244A2C92002F1A8D /* ContentView.swift */; };
@@ -35,6 +41,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4C026D47244B3D8400317E09 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		4C026D49244B3E3300317E09 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		4C026D4E244B473F00317E09 /* VShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VShape.swift; sourceTree = "<group>"; };
+		4C026D50244B478B00317E09 /* Grid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grid.swift; sourceTree = "<group>"; };
+		4C026D52244B47BD00317E09 /* Sigmoid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sigmoid.swift; sourceTree = "<group>"; };
+		4C026D55244B482B00317E09 /* Labels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Labels.swift; sourceTree = "<group>"; };
+		4C026D57244B486A00317E09 /* SigmoidView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigmoidView.swift; sourceTree = "<group>"; };
 		4CDBC5A2244A2C92002F1A8D /* SigmoidPlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SigmoidPlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CDBC5A5244A2C92002F1A8D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4CDBC5A7244A2C92002F1A8D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +62,7 @@
 		4CDBC5C3244A2C98002F1A8D /* SigmoidPlaygroundUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SigmoidPlaygroundUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CDBC5C7244A2C98002F1A8D /* SigmoidPlaygroundUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigmoidPlaygroundUITests.swift; sourceTree = "<group>"; };
 		4CDBC5C9244A2C98002F1A8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CDBC5D5244A4C02002F1A8D /* SigmoidPlayground.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SigmoidPlayground.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,9 +90,60 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4C026D4A244B462600317E09 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				4CDBC5A5244A2C92002F1A8D /* AppDelegate.swift */,
+				4CDBC5A7244A2C92002F1A8D /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		4C026D4B244B463B00317E09 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				4C026D54244B480E00317E09 /* Components */,
+				4C026D4D244B472700317E09 /* Shapes */,
+				4CDBC5A9244A2C92002F1A8D /* ContentView.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		4C026D4C244B464900317E09 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4CDBC5AB244A2C98002F1A8D /* Assets.xcassets */,
+				4CDBC5B0244A2C98002F1A8D /* LaunchScreen.storyboard */,
+				4CDBC5B3244A2C98002F1A8D /* Info.plist */,
+				4CDBC5AD244A2C98002F1A8D /* Preview Content */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		4C026D4D244B472700317E09 /* Shapes */ = {
+			isa = PBXGroup;
+			children = (
+				4C026D4E244B473F00317E09 /* VShape.swift */,
+				4C026D50244B478B00317E09 /* Grid.swift */,
+				4C026D52244B47BD00317E09 /* Sigmoid.swift */,
+			);
+			path = Shapes;
+			sourceTree = "<group>";
+		};
+		4C026D54244B480E00317E09 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				4C026D55244B482B00317E09 /* Labels.swift */,
+				4C026D57244B486A00317E09 /* SigmoidView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 		4CDBC599244A2C92002F1A8D = {
 			isa = PBXGroup;
 			children = (
+				4C026D49244B3E3300317E09 /* README.md */,
+				4C026D47244B3D8400317E09 /* LICENSE */,
 				4CDBC5A4244A2C92002F1A8D /* SigmoidPlayground */,
 				4CDBC5BB244A2C98002F1A8D /* SigmoidPlaygroundTests */,
 				4CDBC5C6244A2C98002F1A8D /* SigmoidPlaygroundUITests */,
@@ -99,13 +164,10 @@
 		4CDBC5A4244A2C92002F1A8D /* SigmoidPlayground */ = {
 			isa = PBXGroup;
 			children = (
-				4CDBC5A5244A2C92002F1A8D /* AppDelegate.swift */,
-				4CDBC5A7244A2C92002F1A8D /* SceneDelegate.swift */,
-				4CDBC5A9244A2C92002F1A8D /* ContentView.swift */,
-				4CDBC5AB244A2C98002F1A8D /* Assets.xcassets */,
-				4CDBC5B0244A2C98002F1A8D /* LaunchScreen.storyboard */,
-				4CDBC5B3244A2C98002F1A8D /* Info.plist */,
-				4CDBC5AD244A2C98002F1A8D /* Preview Content */,
+				4CDBC5D5244A4C02002F1A8D /* SigmoidPlayground.entitlements */,
+				4C026D4B244B463B00317E09 /* UI */,
+				4C026D4A244B462600317E09 /* Application */,
+				4C026D4C244B464900317E09 /* Resources */,
 			);
 			path = SigmoidPlayground;
 			sourceTree = "<group>";
@@ -242,6 +304,7 @@
 			files = (
 				4CDBC5B2244A2C98002F1A8D /* LaunchScreen.storyboard in Resources */,
 				4CDBC5AF244A2C98002F1A8D /* Preview Assets.xcassets in Resources */,
+				4C026D48244B3D8400317E09 /* LICENSE in Resources */,
 				4CDBC5AC244A2C98002F1A8D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,6 +332,11 @@
 			files = (
 				4CDBC5A6244A2C92002F1A8D /* AppDelegate.swift in Sources */,
 				4CDBC5A8244A2C92002F1A8D /* SceneDelegate.swift in Sources */,
+				4C026D4F244B473F00317E09 /* VShape.swift in Sources */,
+				4C026D58244B486A00317E09 /* SigmoidView.swift in Sources */,
+				4C026D56244B482B00317E09 /* Labels.swift in Sources */,
+				4C026D51244B478B00317E09 /* Grid.swift in Sources */,
+				4C026D53244B47BD00317E09 /* Sigmoid.swift in Sources */,
 				4CDBC5AA244A2C92002F1A8D /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -434,17 +502,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SigmoidPlayground/SigmoidPlayground.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"SigmoidPlayground/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SigmoidPlayground/Resources/Preview Content\"";
 				DEVELOPMENT_TEAM = NW4LF639GD;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = SigmoidPlayground/Info.plist;
+				INFOPLIST_FILE = SigmoidPlayground/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.hhe.SigmoidPlayground;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -454,17 +524,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SigmoidPlayground/SigmoidPlayground.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"SigmoidPlayground/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SigmoidPlayground/Resources/Preview Content\"";
 				DEVELOPMENT_TEAM = NW4LF639GD;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = SigmoidPlayground/Info.plist;
+				INFOPLIST_FILE = SigmoidPlayground/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.hhe.SigmoidPlayground;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
