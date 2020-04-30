@@ -29,6 +29,9 @@ struct ContentView: View {
     }
 
     var body: some View {
+//        Rectangle()
+//            .fill(LinearGradient(gradient: .init(colors: [.green, .white]), startPoint: .topTrailing, endPoint: .bottomLeading))
+//            .overlay(SigmoidView())
         NavigationView {
             HStack(spacing: 40) {
                 sigmoidView
@@ -99,7 +102,8 @@ private extension ContentView {
 
            ZStack {
                LabelsX(min: Int(minString) ?? 50, max: Int(maxString) ?? 300)
-                   .frame(width: frameWidth, height: 50)
+                .frame(width: frameWidth, height: 50, alignment: .leading)
+                .offset(x: -30, y: 0)
 
                flashLightView
                    .frame(width: frameWidth, alignment: .topLeading)

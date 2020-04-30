@@ -15,12 +15,12 @@ struct LabelsX: View {
     let max: Int
 
     var step: Int {
-        (max - min) / (Sigmoid.sigmoidNums.count + 1)
+        (max - min) / (Sigmoid.sigmoidNums.count)
     }
 
     var labels: [Int] {
         var labels: [Int] = []
-        for index in 0...Sigmoid.sigmoidNums.count {
+        for index in 0..<Sigmoid.sigmoidNums.count {
             labels.append(index == 0 ? min : (index * step) + min)
         }
         return labels

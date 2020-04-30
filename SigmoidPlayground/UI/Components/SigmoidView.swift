@@ -31,18 +31,18 @@ struct SigmoidView: View {
                 .foregroundColor(.black)
 
             Sigmoid()
-                .stroke(style: StrokeStyle(lineWidth: 3))
+                .stroke(style: StrokeStyle(lineWidth: 5))
                 .frame(width: frameWidth, height: frameHeight)
                 .foregroundColor(.primary)
 
             GridX()
-                .stroke(style: StrokeStyle(dash: [5]))
+                .stroke(style: StrokeStyle(dash: [10]))
                 .frame(width: frameWidth, height: frameHeight)
                 .foregroundColor(.gray)
                 .opacity(0.5)
 
             GridY()
-                .stroke(style: StrokeStyle(dash: [5]))
+                .stroke(style: StrokeStyle(dash: [10]))
                 .frame(width: frameWidth, height: frameHeight)
                 .foregroundColor(.gray)
                 .opacity(0.5)

@@ -16,11 +16,11 @@
 		4CDBC5A6244A2C92002F1A8D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDBC5A5244A2C92002F1A8D /* AppDelegate.swift */; };
 		4CDBC5A8244A2C92002F1A8D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDBC5A7244A2C92002F1A8D /* SceneDelegate.swift */; };
 		4CDBC5AA244A2C92002F1A8D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDBC5A9244A2C92002F1A8D /* ContentView.swift */; };
-		4CDBC5AC244A2C98002F1A8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CDBC5AB244A2C98002F1A8D /* Assets.xcassets */; };
 		4CDBC5AF244A2C98002F1A8D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CDBC5AE244A2C98002F1A8D /* Preview Assets.xcassets */; };
 		4CDBC5B2244A2C98002F1A8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CDBC5B0244A2C98002F1A8D /* LaunchScreen.storyboard */; };
 		4CDBC5BD244A2C98002F1A8D /* SigmoidPlaygroundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDBC5BC244A2C98002F1A8D /* SigmoidPlaygroundTests.swift */; };
 		4CDBC5C8244A2C98002F1A8D /* SigmoidPlaygroundUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDBC5C7244A2C98002F1A8D /* SigmoidPlaygroundUITests.swift */; };
+		4CF7697D245A54F300589015 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CF7697C245A54F300589015 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,11 +48,10 @@
 		4C026D52244B47BD00317E09 /* Sigmoid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sigmoid.swift; sourceTree = "<group>"; };
 		4C026D55244B482B00317E09 /* Labels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Labels.swift; sourceTree = "<group>"; };
 		4C026D57244B486A00317E09 /* SigmoidView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigmoidView.swift; sourceTree = "<group>"; };
-		4CDBC5A2244A2C92002F1A8D /* SigmoidPlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SigmoidPlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CDBC5A2244A2C92002F1A8D /* Sigmoid Playground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sigmoid Playground.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CDBC5A5244A2C92002F1A8D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4CDBC5A7244A2C92002F1A8D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		4CDBC5A9244A2C92002F1A8D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		4CDBC5AB244A2C98002F1A8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4CDBC5AE244A2C98002F1A8D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4CDBC5B1244A2C98002F1A8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4CDBC5B3244A2C98002F1A8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -63,6 +62,7 @@
 		4CDBC5C7244A2C98002F1A8D /* SigmoidPlaygroundUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigmoidPlaygroundUITests.swift; sourceTree = "<group>"; };
 		4CDBC5C9244A2C98002F1A8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4CDBC5D5244A4C02002F1A8D /* SigmoidPlayground.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SigmoidPlayground.entitlements; sourceTree = "<group>"; };
+		4CF7697C245A54F300589015 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,7 +112,7 @@
 		4C026D4C244B464900317E09 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				4CDBC5AB244A2C98002F1A8D /* Assets.xcassets */,
+				4CF7697C245A54F300589015 /* Assets.xcassets */,
 				4CDBC5B0244A2C98002F1A8D /* LaunchScreen.storyboard */,
 				4CDBC5B3244A2C98002F1A8D /* Info.plist */,
 				4CDBC5AD244A2C98002F1A8D /* Preview Content */,
@@ -154,7 +154,7 @@
 		4CDBC5A3244A2C92002F1A8D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4CDBC5A2244A2C92002F1A8D /* SigmoidPlayground.app */,
+				4CDBC5A2244A2C92002F1A8D /* Sigmoid Playground.app */,
 				4CDBC5B8244A2C98002F1A8D /* SigmoidPlaygroundTests.xctest */,
 				4CDBC5C3244A2C98002F1A8D /* SigmoidPlaygroundUITests.xctest */,
 			);
@@ -215,7 +215,7 @@
 			);
 			name = SigmoidPlayground;
 			productName = SigmoidPlayground;
-			productReference = 4CDBC5A2244A2C92002F1A8D /* SigmoidPlayground.app */;
+			productReference = 4CDBC5A2244A2C92002F1A8D /* Sigmoid Playground.app */;
 			productType = "com.apple.product-type.application";
 		};
 		4CDBC5B7244A2C98002F1A8D /* SigmoidPlaygroundTests */ = {
@@ -304,8 +304,8 @@
 			files = (
 				4CDBC5B2244A2C98002F1A8D /* LaunchScreen.storyboard in Resources */,
 				4CDBC5AF244A2C98002F1A8D /* Preview Assets.xcassets in Resources */,
+				4CF7697D245A54F300589015 /* Assets.xcassets in Resources */,
 				4C026D48244B3D8400317E09 /* LICENSE in Resources */,
-				4CDBC5AC244A2C98002F1A8D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -512,8 +512,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 0.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.hhe.SigmoidPlayground;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Sigmoid Playground";
 				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -534,8 +535,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 0.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.hhe.SigmoidPlayground;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Sigmoid Playground";
 				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
